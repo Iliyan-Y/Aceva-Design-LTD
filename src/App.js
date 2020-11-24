@@ -5,11 +5,15 @@ import {
   Jumbotron,
   Image,
   NavDropdown,
+  Carousel,
 } from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Logo01 from './assets/Logo01.png';
 import { GrPhone } from 'react-icons/gr';
 import { HiOutlineMail } from 'react-icons/hi';
+import bg01 from './assets/background/bg01.jpg';
+import bg04 from './assets/background/bg04.jpg';
+import bg02 from './assets/background/bg02.jpg';
 
 function App() {
   return (
@@ -50,17 +54,34 @@ function App() {
         </div>
       </Navbar>
 
-      <Jumbotron id="home" fluid style={{ height: '100vh' }} className="m-0">
-        <div className="row h-100 align-items-center justify-content-center text-center">
-          <div className="w-50">
-            <h1> Carpenter Builder services based in London </h1>
-            <h5>
-              POTTERS BAR, GUILDFORD, SURREY, WINDSOR, NEWBURY, READING & OXFORD
-              ADDING TO THE QUALITY VALUE OF YOUR HOME
-            </h5>
-          </div>
-        </div>
-      </Jumbotron>
+      <Carousel
+        id="home"
+        className="row h-100 align-items-center justify-content-center text-center"
+        controls={false}
+        indicators={false}
+        fade={true}
+      >
+        <Carousel.Item interval={1500}>
+          <img className="w-100" src={bg01} alt="First slide" />
+          <Carousel.Caption className="row h-100 align-items-center justify-content-center text-center">
+            <span className="h4">
+              Carpenter & Builder services based in London POTTERS BAR,
+              GUILDFORD, SURREY, WINDSOR, NEWBURY, READING OXFORD ADDING TO THE
+              QUALITY VALUE OF YOUR HOME
+            </span>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={1500}>
+          <img className="w-100" src={bg04} alt="Third slide" />
+          <Carousel.Caption className="row h-100 align-items-center justify-content-center text-center">
+            <span className="h4 ">
+              Carpenter & Builder services based in London POTTERS BAR,
+              GUILDFORD, SURREY, WINDSOR, NEWBURY, READING OXFORD ADDING TO THE
+              QUALITY VALUE OF YOUR HOME
+            </span>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
 
       <Jumbotron id="contact" fluid style={{ height: '100vh' }} className="m-0">
         <div className="row h-100 align-items-center justify-content-center text-center">
