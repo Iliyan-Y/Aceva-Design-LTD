@@ -14,7 +14,7 @@ const ContactDetails = () => {
         <Col>
           <h1> Contact: </h1>
           <p>
-            <GrPhone /> 000000000
+            <GrPhone /> +44 0000000000
           </p>
           <p>
             <HiOutlineMail /> example@me.com

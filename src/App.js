@@ -5,6 +5,7 @@ import NavBar from './components/navBar/navbar';
 import Home from './components/home/home';
 import ContactDetails from './components/contactDeatails';
 import About from './components/about';
+import Services from './components/services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <ContactDetails />
+      <Services />
       <About />
     </Container>
   );
