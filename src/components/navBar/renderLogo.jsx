@@ -14,7 +14,7 @@ const RenderLogo = () => {
           textDecoration: 'none',
         }}
       >
-        Aseva Design
+        Aceva Design
       </AnchorLink>
     </Nav>
   );
