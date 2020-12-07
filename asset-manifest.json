@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Aceva-Design-LTD/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/Aceva-Design-LTD/static/js/main.cda39d83.chunk.js",
-    "main.js.map": "/Aceva-Design-LTD/static/js/main.cda39d83.chunk.js.map",
+    "main.css": "/Aceva-Design-LTD/static/css/main.efabbe20.chunk.css",
+    "main.js": "/Aceva-Design-LTD/static/js/main.8caad4b9.chunk.js",
+    "main.js.map": "/Aceva-Design-LTD/static/js/main.8caad4b9.chunk.js.map",
     "runtime-main.js": "/Aceva-Design-LTD/static/js/runtime-main.403fc91a.js",
     "runtime-main.js.map": "/Aceva-Design-LTD/static/js/runtime-main.403fc91a.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Aceva-Design-LTD/static/css/2.1a02f21c.chunk.css",
@@ -12,20 +12,19 @@
     "static/js/3.895265b9.chunk.js.map": "/Aceva-Design-LTD/static/js/3.895265b9.chunk.js.map",
     "index.html": "/Aceva-Design-LTD/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/Aceva-Design-LTD/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/Aceva-Design-LTD/static/css/main.6dea0f05.chunk.css.map",
+    "static/css/main.efabbe20.chunk.css.map": "/Aceva-Design-LTD/static/css/main.efabbe20.chunk.css.map",
     "static/js/2.eeb9e75c.chunk.js.LICENSE.txt": "/Aceva-Design-LTD/static/js/2.eeb9e75c.chunk.js.LICENSE.txt",
     "static/media/bg01.ad5b454c.jpg": "/Aceva-Design-LTD/static/media/bg01.ad5b454c.jpg",
     "static/media/bg05.a2b995d2.jpg": "/Aceva-Design-LTD/static/media/bg05.a2b995d2.jpg",
-    "static/media/bg07.4e38f91e.jpg": "/Aceva-Design-LTD/static/media/bg07.4e38f91e.jpg",
     "static/media/bg08.a7531c6e.jpg": "/Aceva-Design-LTD/static/media/bg08.a7531c6e.jpg",
     "static/media/bg09.4c12540b.jpg": "/Aceva-Design-LTD/static/media/bg09.4c12540b.jpg",
-    "static/media/bg10.9b3180e7.jpg": "/Aceva-Design-LTD/static/media/bg10.9b3180e7.jpg"
+    "static/media/p2.52d56026.jpg": "/Aceva-Design-LTD/static/media/p2.52d56026.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.403fc91a.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.eeb9e75c.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.cda39d83.chunk.js"
+    "static/css/main.efabbe20.chunk.css",
+    "static/js/main.8caad4b9.chunk.js"
   ]
 }
