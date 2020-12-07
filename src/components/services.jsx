@@ -1,20 +1,22 @@
 import React from 'react';
-import { Jumbotron, Image, Row, Col } from 'react-bootstrap';
-import bg07 from '../assets/background/bg07.jpg';
-import bg10 from '../assets/background/bg10.jpg';
+import { Jumbotron, Container, Col, Row } from 'react-bootstrap';
+
+import p2 from '../assets/background/p2.jpg';
 
 const Services = () => {
   return (
-    <Jumbotron id="services" fluid className="m-0">
-      <Row className="justify-content-center">
-        <h3 style={{ fontFamily: ' Courier, monospace' }}>We provide</h3>
-      </Row>
-      <Row className="align-items-center justify-content-center">
+    <Jumbotron
+      id="services"
+      fluid
+      className="m-0"
+      style={{
+        background: `url(${p2}) left  bottom`,
+      }}
+    >
+      <Row>
         <Col>
-          <Image src={bg07} fluid />
-        </Col>
-        <Col>
-          <ul className="h4">
+          <ul className="h4  m-4 text-white">
+            <h2 style={{ fontFamily: ' Courier, monospace' }}>We provide</h2>
             <li>All aspect of interior and exterior painting</li>
             <li>
               Bathroom design and instalation: Tilling, installing shower trays,
@@ -28,9 +30,7 @@ const Services = () => {
             </li>
           </ul>
         </Col>
-        <Col>
-          <Image src={bg10} fluid />
-        </Col>
+        <Col className="hideMe"></Col>
       </Row>
     </Jumbotron>
   );

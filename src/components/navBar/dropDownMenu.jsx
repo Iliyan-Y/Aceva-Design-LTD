@@ -10,7 +10,7 @@ const DropDownMenu = () => {
     //   <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
     // </NavDropdown>
 
-    <AnchorLink offset="100" className="nav-link" href="#services">
+    <AnchorLink offset="80" className="nav-link" href="#services">
       Services
     </AnchorLink>
   );
