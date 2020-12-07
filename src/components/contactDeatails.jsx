@@ -2,14 +2,14 @@ import React from 'react';
 import { GrPhone } from 'react-icons/gr';
 import { HiOutlineMail } from 'react-icons/hi';
 import { Jumbotron, Col, Row, Image } from 'react-bootstrap';
-import bg02 from '../assets/background/bg02.jpg';
+import bg05 from '../assets/background/bg05.jpg';
 
 const ContactDetails = () => {
   return (
     <Jumbotron id="contact" fluid className="m-0">
       <Row className="align-items-center justify-content-center text-center">
         <Col>
-          <Image fluid src={bg02} />
+          <Image fluid src={bg05} />
         </Col>
         <Col>
           <h1> Contact: </h1>

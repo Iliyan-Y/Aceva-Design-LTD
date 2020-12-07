@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <Jumbotron id="services" fluid className="m-0">
       <Row className="justify-content-center">
-        <h3>We provide</h3>
+        <h3 style={{ fontFamily: ' Courier, monospace' }}>We provide</h3>
       </Row>
       <Row className="align-items-center justify-content-center">
         <Col>
