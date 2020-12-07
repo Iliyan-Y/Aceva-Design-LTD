@@ -1,59 +1,16 @@
-import {
-  Navbar,
-  Container,
-  Nav,
-  Jumbotron,
-  Image,
-  NavDropdown,
-  Carousel,
-} from 'react-bootstrap';
+import { Container, Jumbotron, Carousel } from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Logo01 from './assets/Logo01.png';
 import { GrPhone } from 'react-icons/gr';
 import { HiOutlineMail } from 'react-icons/hi';
 import bg01 from './assets/background/bg01.jpg';
 import bg04 from './assets/background/bg04.jpg';
 import bg02 from './assets/background/bg02.jpg';
+import NavBar from './components/navBar/navbar';
 
 function App() {
   return (
     <Container className="mw-100 p-0">
-      <Navbar sticky="top" bg="light" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <AnchorLink className="nav-link" href="#home">
-              Home
-            </AnchorLink>
-            <AnchorLink className="nav-link" href="#about">
-              About
-            </AnchorLink>
-            <AnchorLink className="nav-link" href="#contact">
-              Contact
-            </AnchorLink>
-            <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-
-        <AnchorLink href="#home" style={{ marginRight: '25%' }}>
-          <Image src={Logo01} />
-        </AnchorLink>
-        <div>
-          <p>
-            <GrPhone /> Tel:0000000000
-          </p>
-          <p>
-            <HiOutlineMail /> example@me.com
-          </p>
-        </div>
-      </Navbar>
-
+      <NavBar />
       <Carousel
         id="home"
         className="row h-100 align-items-center justify-content-center text-center"
@@ -61,7 +18,7 @@ function App() {
         indicators={false}
         fade={true}
       >
-        <Carousel.Item interval={1500}>
+        <Carousel.Item interval={2500}>
           <img className="w-100" src={bg01} alt="First slide" />
           <Carousel.Caption className="row h-100 align-items-center justify-content-center text-center">
             <span className="h4">
@@ -87,8 +44,12 @@ function App() {
         <div className="row h-100 align-items-center justify-content-center text-center">
           <div>
             <h1> Contact: </h1>
-            <p>Tel: 000000000</p>
-            <p>Email: example@me.com</p>
+            <p>
+              <GrPhone /> 000000000
+            </p>
+            <p>
+              <HiOutlineMail /> example@me.com
+            </p>
           </div>
         </div>
       </Jumbotron>
