@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Carousel
       id="home"
-      className="row h-100 align-items-center justify-content-center text-center"
+      className="h-100 align-items-center justify-content-center text-center"
       controls={false}
       indicators={false}
       fade={true}
@@ -27,7 +27,7 @@ const Home = () => {
       <Carousel.Item interval={2500}>
         <Image fluid className="w-100" src={bg08} alt="Second slide" />
         <Carousel.Caption className="row h-100 align-items-center justify-content-center text-center">
-          <Container className="h4 ">
+          <Container className="h4 text-dark">
             Carpenter & Builder services based in London POTTERS BAR, GUILDFORD,
             SURREY, WINDSOR, NEWBURY, READING OXFORD ADDING TO THE QUALITY VALUE
             OF YOUR HOME
